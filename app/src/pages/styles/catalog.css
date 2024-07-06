@@ -1,0 +1,36 @@
+
+.catalog {
+    background-color: #f8f5ff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.catalog h1 {
+    color: #4a0e78;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn-warning {
+    background-color: #8a2be2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #6a0dad;
+}
